@@ -1,0 +1,28 @@
+.header-logo{
+    height: 60px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+}
+
+.header-right{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+
+}
+
+.header-location{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);; 
+    border: 1px solid rgb(232,232,232);
+    width: 80%;
+    background-color: rgb(255,255,255);
+}

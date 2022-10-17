@@ -24,7 +24,10 @@ const Collection = ({ list }) => {
           </div>
           <div className="collection-location">
             <div>All Collections in Bangalore </div>
-            <i className="fi fi-rr-caret-right absolute-center"></i>
+            {<span class="material-symbols-outlined"></span>/* <i className="fi fi-rr-caret-right absolute-center"></i> */}
+            <span class="material-symbols-outlined">
+arrow_forward_ios
+</span>
           </div>
         </div>
         <Slider {...settings}>
@@ -40,8 +43,7 @@ const Collection = ({ list }) => {
                 <div className="collection-card-title">{item.title}</div>
                 <div className="collection-card-subtitle">
                   <div>{item.places}</div>
-                  <i className="fi fi-rr-caret-right absolute-center"></i>
-                </div>
+                  <span class="material-symbols-outlined"></span>                </div>
               </div>
             </div>
           ))}

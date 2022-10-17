@@ -11,7 +11,7 @@ import TopBrands from "./topBrands";
 const deliveryFilters = [
   {
     id: 1,
-    icon: <i className="fi fi-rr-settings-sliders absolute-center"></i>,
+    icon: <span class="material-symbols-outlined filter-icon">tune</span>,
     title: "Filters",
   },
   {

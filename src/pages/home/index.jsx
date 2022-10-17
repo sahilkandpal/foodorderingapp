@@ -7,10 +7,10 @@ import DiningOut from "../../components/diningOut";
 import Nightlife from "../../components/nightlife";
 
 function Home(){
-    const [activeTab, setActiveState] = useState("Delivery");
+    const [activeTab, setActiveTab] = useState("Delivery");
     return <>
         <Header />
-        <TabOptions activeTab={activeTab} setActiveState={setActiveState} />
+        <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
         {getCorrectScreen(activeTab)}
         <Footer />
     </>

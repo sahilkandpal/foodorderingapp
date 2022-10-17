@@ -26,3 +26,9 @@
     width: 80%;
     background-color: rgb(255,255,255);
 }
+.location-wrapper{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
